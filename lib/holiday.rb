@@ -72,7 +72,7 @@ def all_holidays_with_bbq(holiday_hash)
         season_info.each do |holiday, supplies|
             supplies.include?("BBQ") ? bbq_list << holiday : false
 
-            end
+            
         end
     end
     bbq_list
